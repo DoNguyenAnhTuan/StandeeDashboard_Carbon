@@ -71,9 +71,9 @@
 }
 
 .glass-card {
-  background: rgba(255, 255, 255, 0.1);
-  backdrop-filter: blur(10px);
-  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: rgba(255, 255, 255, 0.05); /* giảm opacity */
+  /* backdrop-filter: blur(10px); */      /* bỏ blur */
+  border: 1px solid rgba(255, 255, 255, 0.1); /* giảm border */
 }
 
 .progress-ring {
@@ -100,20 +100,20 @@
 }
 
 .animate-fade-in {
-  animation: fadeIn 0.5s ease-in-out;
+  /* animation: fadeIn 0.5s ease-in-out; */
 }
 
 .animate-slide-up {
-  animation: slideUp 0.6s ease-out;
+  /* animation: slideUp 0.6s ease-out; */
 }
 
 .animate-pulse-slow {
-  animation: pulse-slow 3s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+  /* animation: pulse-slow 3s cubic-bezier(0.4, 0, 0.6, 1) infinite; */
 }
 
 /* Dashboard gradient background */
 .dashboard-bg {
-  background: linear-gradient(135deg, #1e3a8a 0%, #1e40af 25%, #3b82f6 100%);
+  background: linear-gradient(135deg, #2D5339 0%, #2D5339 25%, #2D5339 100%);
 }
 
 /* Dashboard specific color utilities */
@@ -152,4 +152,25 @@
     height: auto;
     min-height: 100vh;
   }
+}
+/* tailwind.css hoặc global.css */
+.standee-container {
+  max-width: 1080px;
+  width: 100%;
+  margin: 0 auto;
+}
+/* .tv-wrapper {
+  width: 875px;
+  height: 1270px;
+  transform: scale(0.85);
+  transform-origin: top center;
+  margin: 0 auto;
+  overflow: hidden;
+} */
+
+.tv-wrapper {
+  height: 100vh;
+  transform: scale(calc(100vh / 1270)); 
+  transform-origin: top center;
+  overflow: hidden;
 }

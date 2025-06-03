@@ -20,43 +20,52 @@ const airQualityData = [
 ];
 
 interface NoiseCardProps {
-  score: number; // ✅ dùng score thay vì noiseLevel
+  score: number;
 }
 
 export function NoiseCard({ score }: NoiseCardProps) {
   return (
-    <div className="glass-card p-6 rounded-2xl bg-[#4c75c7] text-white">
+    <div
+      className="glass-card p-4 rounded-2xl bg-[#4c75c7] text-white"
+      style={{ height: 320 }} // Chiều cao cố định
+    >
       {/* Header */}
-      <div className="flex items-center justify-between mb-4">
-        <h3 className="text-white text-xl font-semibold">Room 104</h3>
-        <Leaf className="text-white opacity-70" size={22} />
+      <div className="flex items-center justify-between mb-2">
+        <h3 className="text-white text-lg font-semibold">Room 104</h3>
+        <Leaf className="text-white opacity-70" size={20} />
       </div>
 
-      {/* Content */}
-      <div className="flex items-center gap-4">
-        {/* Biểu đồ cột */}
-        <div className="flex-1 h-48">
+      {/* Nội dung chính */}
+      <div className="flex gap-3 h-[250px]">
+        {/* Biểu đồ */}
+        <div className="flex-1">
           <ResponsiveContainer width="100%" height="100%">
-            <BarChart data={airQualityData} barSize={16} margin={{ top: 10, right: 10, left: 0, bottom: 10 }}>
+            <BarChart
+              data={airQualityData}
+              barSize={14}
+              margin={{ top: 0, right: 0, bottom: 0, left: 0 }}
+            >
               <CartesianGrid strokeDasharray="3 3" stroke="#5b91d5" />
-              <XAxis dataKey="name" stroke="#cbd5e1" fontSize={12} />
-              <YAxis stroke="#cbd5e1" fontSize={12} />
+              <XAxis dataKey="name" stroke="#cbd5e1" fontSize={10} />
+              <YAxis hide />
               <Tooltip
                 contentStyle={{ backgroundColor: '#1e293b', border: 'none' }}
                 labelStyle={{ color: '#fff' }}
                 formatter={(value: number) => [`${value}`, 'µg/m³']}
               />
               <Bar dataKey="value" fill="#ffffff">
-                <LabelList dataKey="value" position="top" fill="#4ade80" fontSize={12} />
+                <LabelList dataKey="value" position="top" fill="#4ade80" fontSize={10} />
               </Bar>
             </BarChart>
           </ResponsiveContainer>
         </div>
 
-        {/* Số tổng & trạng thái */}
-        <div className="text-center w-24">
-          <div className="text-green-400 text-5xl font-extrabold">{score}</div>
-          <div className="text-white text-xl">Fresh</div>
+        {/* Điểm số */}
+        <div className="w-24 flex flex-col items-center justify-center">
+          <div className="text-green-400 text-4xl font-bold leading-none">
+            {score}
+          </div>
+          <div className="text-white text-base">Fresh</div>
         </div>
       </div>
     </div>

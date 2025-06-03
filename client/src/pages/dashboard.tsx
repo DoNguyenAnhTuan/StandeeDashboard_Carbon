@@ -8,7 +8,7 @@ import { Skeleton } from "@/components/ui/skeleton";
 import type { DashboardData } from "@shared/schema";
 import CarbonForecastCard from "@/components/dashboard/CarbonForecastCard";
 import { EnergyUserCard } from "@/components/dashboard/EnergyUserCard";
-
+import { getAccessToken, fetchSiteData, fetchSiteData_ConsumptionSummary } from "@/utils/API";
 
 export default function Dashboard() {
   const { dashboardData, connectionStatus } = useWebSocket();
@@ -48,16 +48,18 @@ export default function Dashboard() {
 
   if (isLoading && !data) {
     return (
-      <div className="min-h-screen dashboard-bg flex items-center justify-center">
-        <div className="standee-container p-6">
-          <div className="grid grid-cols-6 gap-6">
-            {Array.from({ length: 8 }).map((_, i) => (
-              <div key={i} className="col-span-2 glass-card p-6 rounded-2xl">
-                <Skeleton className="h-8 w-32 mb-4" />
-                <Skeleton className="h-16 w-24 mb-2" />
-                <Skeleton className="h-4 w-20" />
-              </div>
-            ))}
+      <div className="tv-wrapper">
+        <div className="dashboard-bg h-[1270px] flex items-center justify-center">
+          <div className="standee-container p-6">
+            <div className="grid grid-cols-6 gap-4">
+              {Array.from({ length: 8 }).map((_, i) => (
+                <div key={i} className="col-span-2 glass-card p-4 rounded-xl">
+                  <Skeleton className="h-6 w-24 mb-2" />
+                  <Skeleton className="h-10 w-20 mb-1" />
+                  <Skeleton className="h-3 w-16" />
+                </div>
+              ))}
+            </div>
           </div>
         </div>
       </div>
@@ -66,35 +68,37 @@ export default function Dashboard() {
 
   if (!data) {
     return (
-      <div className="min-h-screen dashboard-bg flex items-center justify-center">
-        <div className="text-center text-white">
-          <h2 className="text-2xl font-bold mb-2">No Data Available</h2>
-          <p className="text-blue-200">Unable to load dashboard data. Please check your connection.</p>
-          {connectionStatus === "disconnected" && (
-            <p className="text-red-400 mt-2">WebSocket connection lost. Attempting to reconnect...</p>
-          )}
+      <div className="tv-wrapper">
+        <div className="dashboard-bg h-[1270px] flex items-center justify-center text-white text-center">
+          <div>
+            <h2 className="text-xl font-bold mb-2">No Data Available</h2>
+            <p className="text-blue-200">Unable to load dashboard data.</p>
+            {connectionStatus === "disconnected" && (
+              <p className="text-red-400 mt-2">WebSocket lost. Reconnecting...</p>
+            )}
+          </div>
         </div>
       </div>
     );
   }
-
+  
   return (
-    <div className="min-h-screen dashboard-bg overflow-hidden">
-      <div className="standee-container relative">
+    <div className="tv-wrapper">
+      <div className="dashboard-bg h-[1270px] flex flex-col justify-start px-4 pt-4 space-y-4 overflow-hidden">
         <HeaderSection />
 
         {/* HIỆN TẠI */}
-        <div className="relative w-full mt-12">
-          {/* Tab header nổi */}
+        <div className="relative">
           <div className="absolute -top-4 left-1/2 -translate-x-1/2 z-10">
-            <span className="inline-block px-6 py-2 bg-blue-700 text-white text-xl font-bold rounded-full shadow border border-white/20">
-              HIỆN TẠI
+            <span className="inline-block px-4 py-1 bg-blue-700 text-white text-sm font-semibold rounded-full shadow border border-white/20">
+              LIVE STATUS
             </span>
           </div>
 
-          {/* Card container cho các block */}
-          <div className="glass-card px-6 py-6 pt-10 rounded-2xl bg-[#1e3a8a]/20 backdrop-blur border border-white/10 shadow-inner space-y-6">
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+          {/* <div className="glass-card px-4 py-4 pt-8 rounded-xl bg-[#1e3a8a]/20 border border-white/10 shadow-inner space-y-4"> */}
+          <div className="glass-card px-2 py-2 pt-4 rounded-lg bg-[#1e3a8a]/20 border border-white/10 shadow-inner space-y-2">
+
+            <div className="grid grid-cols-3 grid-rows-3 gap-4 h-full">
               {realBlocks.map((block, idx) => (
                 <ElectricityCard
                   key={idx}
@@ -108,20 +112,19 @@ export default function Dashboard() {
         </div>
 
         {/* DỰ BÁO & THỐNG KÊ */}
-        <div className="relative w-full mt-12">
-          {/* Tab header nổi */}
+        <div className="relative">
           <div className="absolute -top-4 left-1/2 -translate-x-1/2 z-10">
-            <span className="inline-block px-6 py-2 bg-blue-700 text-white text-xl font-bold rounded-full shadow border border-white/20">
-              DỰ BÁO & THỐNG KÊ
+            <span className="inline-block px-4 py-1 bg-blue-700 text-white text-sm font-semibold rounded-full shadow border border-white/20">
+              PERFORMANCE FORECAST
             </span>
           </div>
 
-          {/* Card container */}
-          <div className="glass-card px-6 py-6 pt-10 rounded-2xl bg-[#1e3a8a]/20 backdrop-blur border border-white/10 shadow-inner space-y-6">
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div className="glass-card px-4 py-4 pt-8 rounded-xl bg-[#1e3a8a]/20 border border-white/10 shadow-inner space-y-4">
+            {/* <div className="grid grid-cols-2 gap-4">
+              <EnergyUserCard />
               <NoiseCard score={30} />
               <CarbonForecastCard data={forecastData} />
-            </div>
+            </div> */}
             <EnergyUserCard />
           </div>
         </div>
