@@ -44,11 +44,17 @@ export function HeaderSection() {
       {/* Logo phải */}
       <div className="bg-white rounded-lg flex items-center justify-center w-[120px] h-[40px]">
         <img
-          src="/assets/logo-fablab.png"
+          src="/assets/demo.png"
           alt="FabLab Logo"
           className="h-7 object-contain"
         />
       </div>
+      {/* Logo phải */}
+      {/* <div className="bg-white rounded-lg flex items-center justify-center w-auto h-[40px] px-3 gap-2">
+        <img src="/assets/logo-sembcorp.png" alt="Logo 2" className="h-6 object-contain" />
+        <div className="h-6 w-px bg-gray-300 mx-1" /> 
+        <img src="/assets/logo-fablab.png" alt="Logo 3" className="h-6 object-contain" />
+      </div> */}
       
     </div>
   );

@@ -1,0 +1,386 @@
+[
+  {
+    "_id": "2025-06-10T00:00:00",
+    "forecast": 0,
+    "actual": 0,
+    "export": 0.0,
+    "carbon_emission": 0,
+    "price": 7.0
+  },
+  {
+    "_id": "2025-06-10T00:30:00",
+    "forecast": 0,
+    "actual": 0,
+    "export": 0.0,
+    "carbon_emission": 0,
+    "price": 7.0
+  },
+  {
+    "_id": "2025-06-10T01:00:00",
+    "forecast": 0,
+    "actual": 0,
+    "export": 0.0,
+    "carbon_emission": 0,
+    "price": 7.0
+  },
+  {
+    "_id": "2025-06-10T01:30:00",
+    "forecast": 0,
+    "actual": 0,
+    "export": 0.0,
+    "carbon_emission": 0,
+    "price": 7.0
+  },
+  {
+    "_id": "2025-06-10T02:00:00",
+    "forecast": 0,
+    "actual": 0,
+    "export": 0.0,
+    "carbon_emission": 0,
+    "price": 7.0
+  },
+  {
+    "_id": "2025-06-10T02:30:00",
+    "forecast": 0,
+    "actual": 17.704780691189235,
+    "export": 0.0,
+    "carbon_emission": 3.771118287223307,
+    "price": 7.0
+  },
+  {
+    "_id": "2025-06-10T03:00:00",
+    "forecast": 0,
+    "actual": 16.79448759765625,
+    "export": 0.0,
+    "carbon_emission": 3.577225858300781,
+    "price": 7.0
+  },
+  {
+    "_id": "2025-06-10T03:30:00",
+    "forecast": 0,
+    "actual": 16.341499262152777,
+    "export": 0.0,
+    "carbon_emission": 3.4807393428385414,
+    "price": 7.0
+  },
+  {
+    "_id": "2025-06-10T04:00:00",
+    "forecast": 0,
+    "actual": 19.090369574652776,
+    "export": 0.0,
+    "carbon_emission": 4.066248719401042,
+    "price": 7.0
+  },
+  {
+    "_id": "2025-06-10T04:30:00",
+    "forecast": 0,
+    "actual": 23.353380772569444,
+    "export": 0.0,
+    "carbon_emission": 4.9742701045572915,
+    "price": 7.0
+  },
+  {
+    "_id": "2025-06-10T05:00:00",
+    "forecast": 0,
+    "actual": 24.443701101345486,
+    "export": 0.0,
+    "carbon_emission": 5.206508334586589,
+    "price": 7.0
+  },
+  {
+    "_id": "2025-06-10T05:30:00",
+    "forecast": 0,
+    "actual": 18.48757105034722,
+    "export": 0.0,
+    "carbon_emission": 3.937852633723958,
+    "price": 7.0
+  },
+  {
+    "_id": "2025-06-10T06:00:00",
+    "forecast": 0,
+    "actual": 28.024755707465278,
+    "export": 0.0,
+    "carbon_emission": 1.709510098155382,
+    "price": 7.0
+  },
+  {
+    "_id": "2025-06-10T06:30:00",
+    "forecast": 0,
+    "actual": 36.04186706814236,
+    "export": 0.0,
+    "carbon_emission": 7.676917685514322,
+    "price": 7.0
+  },
+  {
+    "_id": "2025-06-10T07:00:00",
+    "forecast": 0,
+    "actual": 92.74977118055556,
+    "export": 0.0,
+    "carbon_emission": 19.755701261458334,
+    "price": 7.0
+  },
+  {
+    "_id": "2025-06-10T07:30:00",
+    "forecast": 0,
+    "actual": 138.391087890625,
+    "export": 0.0,
+    "carbon_emission": 29.47730172070312,
+    "price": 7.0
+  },
+  {
+    "_id": "2025-06-10T08:00:00",
+    "forecast": 0,
+    "actual": 127.84415247395835,
+    "export": 0.0,
+    "carbon_emission": 27.230804476953125,
+    "price": 7.0
+  },
+  {
+    "_id": "2025-06-10T08:30:00",
+    "forecast": 0,
+    "actual": 136.48496909722223,
+    "export": 0.0,
+    "carbon_emission": 29.071298417708334,
+    "price": 7.0
+  },
+  {
+    "_id": "2025-06-10T09:00:00",
+    "forecast": 0,
+    "actual": 134.96470520833333,
+    "export": 0.0,
+    "carbon_emission": 28.747482209374997,
+    "price": 7.0
+  },
+  {
+    "_id": "2025-06-10T09:30:00",
+    "forecast": 0,
+    "actual": 157.07100069444442,
+    "export": 0.0,
+    "carbon_emission": 33.45612314791666,
+    "price": 7.0
+  },
+  {
+    "_id": "2025-06-10T10:00:00",
+    "forecast": 0,
+    "actual": 143.61171906429598,
+    "export": 0.0,
+    "carbon_emission": 30.589296160695046,
+    "price": 7.0
+  },
+  {
+    "_id": "2025-06-10T10:30:00",
+    "forecast": 0,
+    "actual": 152.22048756720432,
+    "export": 0.0,
+    "carbon_emission": 32.422963851814515,
+    "price": 7.0
+  },
+  {
+    "_id": "2025-06-10T11:00:00",
+    "forecast": 0,
+    "actual": 155.6067875,
+    "export": 0.0,
+    "carbon_emission": 33.1442457375,
+    "price": 7.0
+  },
+  {
+    "_id": "2025-06-10T11:30:00",
+    "forecast": 0,
+    "actual": 107.29871453993056,
+    "export": 0.0,
+    "carbon_emission": 22.854626197005206,
+    "price": 7.0
+  },
+  {
+    "_id": "2025-06-10T12:00:00",
+    "forecast": 0,
+    "actual": 131.67197625868056,
+    "export": 0.0,
+    "carbon_emission": 28.04613094309896,
+    "price": 7.0
+  },
+  {
+    "_id": "2025-06-10T12:30:00",
+    "forecast": 0,
+    "actual": 146.98323368055557,
+    "export": 0.0,
+    "carbon_emission": 31.30742877395834,
+    "price": 7.0
+  },
+  {
+    "_id": "2025-06-10T13:00:00",
+    "forecast": 0,
+    "actual": 155.0928501736111,
+    "export": 0.0,
+    "carbon_emission": 33.03477708697916,
+    "price": 7.0
+  },
+  {
+    "_id": "2025-06-10T13:30:00",
+    "forecast": 0,
+    "actual": 144.01395616883119,
+    "export": 0.0,
+    "carbon_emission": 30.674972663961043,
+    "price": 7.0
+  },
+  {
+    "_id": "2025-06-10T14:00:00",
+    "forecast": 0,
+    "actual": 144.13735181970165,
+    "export": 0.0,
+    "carbon_emission": 30.701255937596454,
+    "price": 7.0
+  },
+  {
+    "_id": "2025-06-10T14:30:00",
+    "forecast": 0,
+    "actual": 125.82001982142857,
+    "export": 0.0,
+    "carbon_emission": 26.799664221964285,
+    "price": 7.0
+  },
+  {
+    "_id": "2025-06-10T15:00:00",
+    "forecast": 0,
+    "actual": 0,
+    "export": 0,
+    "carbon_emission": 0,
+    "price": 7.0
+  },
+  {
+    "_id": "2025-06-10T15:30:00",
+    "forecast": 0,
+    "actual": 0,
+    "export": 0,
+    "carbon_emission": 0,
+    "price": 7.0
+  },
+  {
+    "_id": "2025-06-10T16:00:00",
+    "forecast": 0,
+    "actual": 0,
+    "export": 0,
+    "carbon_emission": 0,
+    "price": 7.0
+  },
+  {
+    "_id": "2025-06-10T16:30:00",
+    "forecast": 0,
+    "actual": 0,
+    "export": 0,
+    "carbon_emission": 0,
+    "price": 7.0
+  },
+  {
+    "_id": "2025-06-10T17:00:00",
+    "forecast": 0,
+    "actual": 0,
+    "export": 0,
+    "carbon_emission": 0,
+    "price": 7.0
+  },
+  {
+    "_id": "2025-06-10T17:30:00",
+    "forecast": 0,
+    "actual": 0,
+    "export": 0,
+    "carbon_emission": 0,
+    "price": 7.0
+  },
+  {
+    "_id": "2025-06-10T18:00:00",
+    "forecast": 0,
+    "actual": 0,
+    "export": 0,
+    "carbon_emission": 0,
+    "price": 7.0
+  },
+  {
+    "_id": "2025-06-10T18:30:00",
+    "forecast": 0,
+    "actual": 0,
+    "export": 0,
+    "carbon_emission": 0,
+    "price": 7.0
+  },
+  {
+    "_id": "2025-06-10T19:00:00",
+    "forecast": 0,
+    "actual": 0,
+    "export": 0,
+    "carbon_emission": 0,
+    "price": 7.0
+  },
+  {
+    "_id": "2025-06-10T19:30:00",
+    "forecast": 0,
+    "actual": 0,
+    "export": 0,
+    "carbon_emission": 0,
+    "price": 7.0
+  },
+  {
+    "_id": "2025-06-10T20:00:00",
+    "forecast": 0,
+    "actual": 0,
+    "export": 0,
+    "carbon_emission": 0,
+    "price": 7.0
+  },
+  {
+    "_id": "2025-06-10T20:30:00",
+    "forecast": 0,
+    "actual": 0,
+    "export": 0,
+    "carbon_emission": 0,
+    "price": 7.0
+  },
+  {
+    "_id": "2025-06-10T21:00:00",
+    "forecast": 0,
+    "actual": 0,
+    "export": 0,
+    "carbon_emission": 0,
+    "price": 7.0
+  },
+  {
+    "_id": "2025-06-10T21:30:00",
+    "forecast": 0,
+    "actual": 0,
+    "export": 0,
+    "carbon_emission": 0,
+    "price": 7.0
+  },
+  {
+    "_id": "2025-06-10T22:00:00",
+    "forecast": 0,
+    "actual": 0,
+    "export": 0,
+    "carbon_emission": 0,
+    "price": 7.0
+  },
+  {
+    "_id": "2025-06-10T22:30:00",
+    "forecast": 0,
+    "actual": 0,
+    "export": 0,
+    "carbon_emission": 0,
+    "price": 7.0
+  },
+  {
+    "_id": "2025-06-10T23:00:00",
+    "forecast": 0,
+    "actual": 0,
+    "export": 0,
+    "carbon_emission": 0,
+    "price": 7.0
+  },
+  {
+    "_id": "2025-06-10T23:30:00",
+    "forecast": 0,
+    "actual": 0,
+    "export": 0,
+    "carbon_emission": 0,
+    "price": 7.0
+  }
+]

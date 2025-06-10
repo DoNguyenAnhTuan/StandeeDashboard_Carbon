@@ -1,0 +1,52 @@
+[
+  {
+    "name": "EIU Block 5",
+    "usage": 0,
+    "carbon_emission": 0
+  },
+  {
+    "name": "EIU Block 4",
+    "usage": 612.823,
+    "carbon_emission": 130.256
+  },
+  {
+    "name": "EIU Block 8",
+    "usage": 2394.245,
+    "carbon_emission": 505.714
+  },
+  {
+    "name": "EIU Block 10",
+    "usage": 793.484,
+    "carbon_emission": 166.656
+  },
+  {
+    "name": "EIU Block 11A",
+    "usage": 300.984,
+    "carbon_emission": 63.464
+  },
+  {
+    "name": "EIU Block 11B",
+    "usage": 701.431,
+    "carbon_emission": 148.795
+  },
+  {
+    "name": "EIU Block 3",
+    "usage": 2385.197,
+    "carbon_emission": 505.796
+  },
+  {
+    "name": "EIU Block 6",
+    "usage": 672.439,
+    "carbon_emission": 142.044
+  },
+  {
+    "name": "EIU Garage",
+    "usage": 0,
+    "carbon_emission": 0
+  },
+  {
+    "name": "All Blocks",
+    "usage": 7860.603,
+    "carbon_emission": 1662.725
+  }
+]

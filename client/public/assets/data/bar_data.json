@@ -1,0 +1,242 @@
+[
+  {
+    "hour": "00:00",
+    "consumption": 0.0,
+    "carbon_emission": 0.0
+  },
+  {
+    "hour": "00:30",
+    "consumption": 0.0,
+    "carbon_emission": 0.0
+  },
+  {
+    "hour": "01:00",
+    "consumption": 0.0,
+    "carbon_emission": 0.0
+  },
+  {
+    "hour": "01:30",
+    "consumption": 0.0,
+    "carbon_emission": 0.0
+  },
+  {
+    "hour": "02:00",
+    "consumption": 0.0,
+    "carbon_emission": 0.0
+  },
+  {
+    "hour": "02:30",
+    "consumption": 59.03,
+    "carbon_emission": 12.57
+  },
+  {
+    "hour": "03:00",
+    "consumption": 59.21,
+    "carbon_emission": 12.61
+  },
+  {
+    "hour": "03:30",
+    "consumption": 57.21,
+    "carbon_emission": 12.19
+  },
+  {
+    "hour": "04:00",
+    "consumption": 60.97,
+    "carbon_emission": 12.99
+  },
+  {
+    "hour": "04:30",
+    "consumption": 62.47,
+    "carbon_emission": 13.31
+  },
+  {
+    "hour": "05:00",
+    "consumption": 66.38,
+    "carbon_emission": 14.14
+  },
+  {
+    "hour": "05:30",
+    "consumption": 58.07,
+    "carbon_emission": 12.37
+  },
+  {
+    "hour": "06:00",
+    "consumption": 76.21,
+    "carbon_emission": 4.65
+  },
+  {
+    "hour": "06:30",
+    "consumption": 103.54,
+    "carbon_emission": 22.05
+  },
+  {
+    "hour": "07:00",
+    "consumption": 204.58,
+    "carbon_emission": 43.58
+  },
+  {
+    "hour": "07:30",
+    "consumption": 402.55,
+    "carbon_emission": 85.74
+  },
+  {
+    "hour": "08:00",
+    "consumption": 423.72,
+    "carbon_emission": 90.25
+  },
+  {
+    "hour": "08:30",
+    "consumption": 462.74,
+    "carbon_emission": 98.56
+  },
+  {
+    "hour": "09:00",
+    "consumption": 456.71,
+    "carbon_emission": 97.28
+  },
+  {
+    "hour": "09:30",
+    "consumption": 509.97,
+    "carbon_emission": 108.62
+  },
+  {
+    "hour": "10:00",
+    "consumption": 507.3,
+    "carbon_emission": 108.06
+  },
+  {
+    "hour": "10:30",
+    "consumption": 511.8,
+    "carbon_emission": 109.01
+  },
+  {
+    "hour": "11:00",
+    "consumption": 522.06,
+    "carbon_emission": 111.2
+  },
+  {
+    "hour": "11:30",
+    "consumption": 442.67,
+    "carbon_emission": 94.29
+  },
+  {
+    "hour": "12:00",
+    "consumption": 468.04,
+    "carbon_emission": 99.69
+  },
+  {
+    "hour": "12:30",
+    "consumption": 473.92,
+    "carbon_emission": 100.94
+  },
+  {
+    "hour": "13:00",
+    "consumption": 463.23,
+    "carbon_emission": 98.67
+  },
+  {
+    "hour": "13:30",
+    "consumption": 480.78,
+    "carbon_emission": 102.41
+  },
+  {
+    "hour": "14:00",
+    "consumption": 474.15,
+    "carbon_emission": 100.99
+  },
+  {
+    "hour": "14:30",
+    "consumption": 453.29,
+    "carbon_emission": 96.55
+  },
+  {
+    "hour": "15:00",
+    "consumption": 0.0,
+    "carbon_emission": 0.0
+  },
+  {
+    "hour": "15:30",
+    "consumption": 0.0,
+    "carbon_emission": 0.0
+  },
+  {
+    "hour": "16:00",
+    "consumption": 0.0,
+    "carbon_emission": 0.0
+  },
+  {
+    "hour": "16:30",
+    "consumption": 0.0,
+    "carbon_emission": 0.0
+  },
+  {
+    "hour": "17:00",
+    "consumption": 0.0,
+    "carbon_emission": 0.0
+  },
+  {
+    "hour": "17:30",
+    "consumption": 0.0,
+    "carbon_emission": 0.0
+  },
+  {
+    "hour": "18:00",
+    "consumption": 0.0,
+    "carbon_emission": 0.0
+  },
+  {
+    "hour": "18:30",
+    "consumption": 0.0,
+    "carbon_emission": 0.0
+  },
+  {
+    "hour": "19:00",
+    "consumption": 0.0,
+    "carbon_emission": 0.0
+  },
+  {
+    "hour": "19:30",
+    "consumption": 0.0,
+    "carbon_emission": 0.0
+  },
+  {
+    "hour": "20:00",
+    "consumption": 0.0,
+    "carbon_emission": 0.0
+  },
+  {
+    "hour": "20:30",
+    "consumption": 0.0,
+    "carbon_emission": 0.0
+  },
+  {
+    "hour": "21:00",
+    "consumption": 0.0,
+    "carbon_emission": 0.0
+  },
+  {
+    "hour": "21:30",
+    "consumption": 0.0,
+    "carbon_emission": 0.0
+  },
+  {
+    "hour": "22:00",
+    "consumption": 0.0,
+    "carbon_emission": 0.0
+  },
+  {
+    "hour": "22:30",
+    "consumption": 0.0,
+    "carbon_emission": 0.0
+  },
+  {
+    "hour": "23:00",
+    "consumption": 0.0,
+    "carbon_emission": 0.0
+  },
+  {
+    "hour": "23:30",
+    "consumption": 0.0,
+    "carbon_emission": 0.0
+  }
+]

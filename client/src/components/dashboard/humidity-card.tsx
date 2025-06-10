@@ -19,8 +19,8 @@ export function ElectricityCard({ electricityUsage, carbonEmissions, blockName }
           Electricity Usage
         </div>
         <div className="text-white text-2xl font-extrabold">
-          {electricityUsage.toFixed(2)}
-          <span className="text-sm font-normal ml-1">MWh</span>
+          {electricityUsage.toFixed(1)}
+          <span className="text-sm font-normal ml-1">kWh</span>
         </div>
       </div>
 
