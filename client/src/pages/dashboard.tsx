@@ -56,6 +56,7 @@ export default function Dashboard() {
 
   const data = dashboardData || fallbackData;
   const [realBlocks, setRealBlocks] = useState<Block[]>([]);
+  const [forecastData, setForecastData] = useState<{ date: string; actual: number | null; forecast: number }[]>([]);
 
   useEffect(() => {
     fetch("/api/actual")
@@ -74,6 +75,40 @@ export default function Dashboard() {
       .catch((err) => {
         console.error("Lỗi lấy actual:", err);
       });
+    // Lấy dữ liệu thực tế từ site_all_daily.json
+    // fetch("/assets/data/site_all_daily.json")
+    //   .then((res) => res.json())
+    //   .then((data) => {
+    //     const transformed = data.map((entry: any) => {
+    //       const { year, month, day } = entry._id;
+    //       const date = `${year}-${String(month).padStart(2, "0")}-${String(day).padStart(2, "0")}`;
+    //       return {
+    //         date,
+    //         actual: entry.carbon_emission ?? null,
+    //         forecast: 0, // hoặc gán thủ công từ logic của bạn
+    //       };
+    //     });
+    //     setForecastData(transformed);
+    //   })
+    //   .catch((err) => {
+    //     console.error("Lỗi load site_all_daily.json:", err);
+    //   });
+    // Lấy dữ liệu từ forecast_carbon.json
+    fetch("/assets/data/forecast_carbon.json")
+      .then((res) => res.json())
+      .then((data) => {
+        setForecastData(
+          data.map((entry: any) => ({
+            date: entry.date,
+            actual: entry.actual ?? null,
+            forecast: entry.forecast ?? 0,
+          }))
+        );
+      })
+      .catch((err) => {
+        console.error("Lỗi load forecast_carbon.json:", err);
+      });
+
   }, []);
 
 
@@ -150,7 +185,7 @@ export default function Dashboard() {
           </div>
 
           <div className="glass-card px-4 py-4 pt-8 rounded-xl bg-[#1e3a8a]/20 border border-white/10 shadow-inner space-y-4">
-            {/* <CarbonForecastCard data={forecastData} /> */}
+            <CarbonForecastCard data={forecastData} />
             <EnergyUserCard />
           </div>
         </div>

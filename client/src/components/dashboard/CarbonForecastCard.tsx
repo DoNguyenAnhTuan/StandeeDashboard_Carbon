@@ -24,7 +24,7 @@ export function CarbonForecastCard({ data }: CarbonForecastCardProps) {
         <div>
           <p className="text-[10px] text-blue-100">Carbon Forecast</p>
           <p className="text-base font-bold leading-tight">
-            Next 7 Days <span className="text-blue-100 text-xs"> (tons CO₂)</span>
+            Next 3 Days <span className="text-blue-100 text-xs"> (tons CO₂)</span>
           </p>
         </div>
       </div>

@@ -83,8 +83,8 @@ function runDataUpdateScript() {
 
 // Gọi ngay khi khởi động server
 runDataUpdateScript();
-// Gọi lại mỗi 24 giờ
-setInterval(runDataUpdateScript, 24 * 60 * 60 * 1000);
+// Gọi lại mỗi 1 giờ
+setInterval(runDataUpdateScript, 1 * 60 * 60 * 1000);
 
 // Khởi động server
 (async () => {
