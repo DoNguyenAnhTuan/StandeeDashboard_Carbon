@@ -2,61 +2,6 @@
   {
     "_id": {
       "year": 2025,
-      "month": 5,
-      "day": 30
-    },
-    "forecast": 0,
-    "actual": 12411.992608319679,
-    "export": 0.0008134231136343574,
-    "carbon_emission": 2629.6194098277206
-  },
-  {
-    "_id": {
-      "year": 2025,
-      "month": 5,
-      "day": 31
-    },
-    "forecast": 0,
-    "actual": 5545.141045234821,
-    "export": 0.0,
-    "carbon_emission": 1175.3265948654032
-  },
-  {
-    "_id": {
-      "year": 2025,
-      "month": 6,
-      "day": 1
-    },
-    "forecast": 0,
-    "actual": 3061.405118000923,
-    "export": 82.76627328356983,
-    "carbon_emission": 648.6877716653254
-  },
-  {
-    "_id": {
-      "year": 2025,
-      "month": 6,
-      "day": 2
-    },
-    "forecast": 0,
-    "actual": 12559.005467900837,
-    "export": 0.0,
-    "carbon_emission": 2660.5366129429053
-  },
-  {
-    "_id": {
-      "year": 2025,
-      "month": 6,
-      "day": 3
-    },
-    "forecast": 0,
-    "actual": 11192.55057129046,
-    "export": 0.0,
-    "carbon_emission": 2374.0747830133528
-  },
-  {
-    "_id": {
-      "year": 2025,
       "month": 6,
       "day": 4
     },
@@ -138,8 +83,63 @@
       "day": 11
     },
     "forecast": 0,
-    "actual": 3959.103382698091,
+    "actual": 9043.022007437661,
     "export": 0.0,
-    "carbon_emission": 842.8478313115215
+    "carbon_emission": 1925.72249838105
+  },
+  {
+    "_id": {
+      "year": 2025,
+      "month": 6,
+      "day": 12
+    },
+    "forecast": 0,
+    "actual": 11398.573254968082,
+    "export": 0.0,
+    "carbon_emission": 2418.6770724713333
+  },
+  {
+    "_id": {
+      "year": 2025,
+      "month": 6,
+      "day": 13
+    },
+    "forecast": 0,
+    "actual": 10834.458812218167,
+    "export": 0.0,
+    "carbon_emission": 2301.4343959587536
+  },
+  {
+    "_id": {
+      "year": 2025,
+      "month": 6,
+      "day": 14
+    },
+    "forecast": 0,
+    "actual": 5652.157797725929,
+    "export": 0.0,
+    "carbon_emission": 1198.6847785575767
+  },
+  {
+    "_id": {
+      "year": 2025,
+      "month": 6,
+      "day": 15
+    },
+    "forecast": 0,
+    "actual": 2908.9057234663264,
+    "export": 192.91485105699027,
+    "carbon_emission": 614.4976579608332
+  },
+  {
+    "_id": {
+      "year": 2025,
+      "month": 6,
+      "day": 16
+    },
+    "forecast": 0,
+    "actual": 7471.84630143185,
+    "export": 0.0,
+    "carbon_emission": 1582.4656369200627
   }
 ]

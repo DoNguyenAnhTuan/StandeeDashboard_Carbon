@@ -5,8 +5,11 @@ import { exec } from "child_process";
 import fs from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
+import cron from "node-cron"; 
+
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
+
 
 const app = express();
 app.use(express.json());
@@ -84,7 +87,7 @@ function runDataUpdateScript() {
 // Gọi ngay khi khởi động server
 runDataUpdateScript();
 // Gọi lại mỗi 1 giờ
-setInterval(runDataUpdateScript, 1 * 60 * 60 * 1000);
+setInterval(runDataUpdateScript, 0.5 * 60 * 60 * 1000);
 
 // Khởi động server
 (async () => {
@@ -116,3 +119,26 @@ setInterval(runDataUpdateScript, 1 * 60 * 60 * 1000);
     }
   );
 })();
+
+// Lặp lại mỗi 1 giờ chạy lại bar_data.py để cập nhật dữ liệu
+cron.schedule("*/30 * * * *", () => {
+  console.log("Bat dau cap nhat lai bar_data.json...");
+  exec("python ./scripts/bar_data.py", (err, stdout, stderr) => {
+    if (err) {
+      console.error(" Loi khi chay bar_data.py:", stderr);
+    } else {
+      console.log(" Da cap nhat xong bar_data.json:\n" + stdout);
+    }
+  });
+});
+// Chạy fetch_all_blocks_daily.py mỗi ngày lúc 00:00
+cron.schedule("0 0 * * *", () => {
+  console.log("Dang cap nhat toan bo block hàng ngày (fetch_all_blocks_daily.py)...");
+  exec("python ./scripts/fetch_all_blocks_daily.py", (err, stdout, stderr) => {
+    if (err) {
+      console.error("Loi khi chay fetch_all_blocks_daily.py:", stderr);
+    } else {
+      console.log("Da chay xong fetch_all_blocks_daily.py:\n" + stdout);
+    }
+  });
+});

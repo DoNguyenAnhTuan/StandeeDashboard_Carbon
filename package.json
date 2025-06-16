@@ -4,7 +4,7 @@
   "type": "module",
   "license": "MIT",
   "scripts": {
-    "predev": "python ./scripts/fetch_site_data.py",
+    "predev": "python scripts/fetch_site_data.py && python scripts/fetch_all_blocks_daily.py && python scripts/bar_data.py",
     "dev": "set NODE_ENV=development&& tsx server/index.ts",
     "build": "vite build && esbuild server/index.ts --platform=node --packages=external --bundle --format=esm --outdir=dist",
     "start": "set NODE_ENV=production&& node dist/index.js",
@@ -59,6 +59,7 @@
     "memorystore": "^1.6.7",
     "next": "^15.3.2",
     "next-themes": "^0.4.6",
+    "node-cron": "^4.1.0",
     "passport": "^0.7.0",
     "passport-local": "^1.0.0",
     "react": "^18.3.1",

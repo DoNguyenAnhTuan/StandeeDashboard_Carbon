@@ -26,128 +26,128 @@
   },
   {
     "hour": "02:30",
-    "consumption": 59.03,
-    "carbon_emission": 12.57
+    "consumption": 60.72,
+    "carbon_emission": 12.93
   },
   {
     "hour": "03:00",
-    "consumption": 59.21,
-    "carbon_emission": 12.61
+    "consumption": 59.39,
+    "carbon_emission": 12.65
   },
   {
     "hour": "03:30",
-    "consumption": 57.21,
-    "carbon_emission": 12.19
+    "consumption": 58.99,
+    "carbon_emission": 12.56
   },
   {
     "hour": "04:00",
-    "consumption": 60.97,
-    "carbon_emission": 12.99
+    "consumption": 61.71,
+    "carbon_emission": 13.14
   },
   {
     "hour": "04:30",
-    "consumption": 62.47,
-    "carbon_emission": 13.31
+    "consumption": 61.91,
+    "carbon_emission": 13.19
   },
   {
     "hour": "05:00",
-    "consumption": 66.38,
-    "carbon_emission": 14.14
+    "consumption": 59.58,
+    "carbon_emission": 12.69
   },
   {
     "hour": "05:30",
-    "consumption": 58.07,
-    "carbon_emission": 12.37
+    "consumption": 58.27,
+    "carbon_emission": 12.41
   },
   {
     "hour": "06:00",
-    "consumption": 76.21,
-    "carbon_emission": 4.65
+    "consumption": 80.69,
+    "carbon_emission": 8.15
   },
   {
     "hour": "06:30",
-    "consumption": 103.54,
-    "carbon_emission": 22.05
+    "consumption": 161.38,
+    "carbon_emission": 34.37
   },
   {
     "hour": "07:00",
-    "consumption": 204.58,
-    "carbon_emission": 43.58
+    "consumption": 349.24,
+    "carbon_emission": 74.39
   },
   {
     "hour": "07:30",
-    "consumption": 402.55,
-    "carbon_emission": 85.74
+    "consumption": 496.09,
+    "carbon_emission": 105.67
   },
   {
     "hour": "08:00",
-    "consumption": 423.72,
-    "carbon_emission": 90.25
+    "consumption": 526.09,
+    "carbon_emission": 112.06
   },
   {
     "hour": "08:30",
-    "consumption": 462.74,
-    "carbon_emission": 98.56
+    "consumption": 614.95,
+    "carbon_emission": 130.99
   },
   {
     "hour": "09:00",
-    "consumption": 456.71,
-    "carbon_emission": 97.28
+    "consumption": 623.03,
+    "carbon_emission": 132.7
   },
   {
     "hour": "09:30",
-    "consumption": 509.97,
-    "carbon_emission": 108.62
+    "consumption": 630.83,
+    "carbon_emission": 134.37
   },
   {
     "hour": "10:00",
-    "consumption": 507.3,
-    "carbon_emission": 108.06
+    "consumption": 585.27,
+    "carbon_emission": 124.66
   },
   {
     "hour": "10:30",
-    "consumption": 511.8,
-    "carbon_emission": 109.01
+    "consumption": 545.53,
+    "carbon_emission": 116.2
   },
   {
     "hour": "11:00",
-    "consumption": 522.06,
-    "carbon_emission": 111.2
+    "consumption": 494.42,
+    "carbon_emission": 105.31
   },
   {
     "hour": "11:30",
-    "consumption": 442.67,
-    "carbon_emission": 94.29
+    "consumption": 495.14,
+    "carbon_emission": 105.46
   },
   {
     "hour": "12:00",
-    "consumption": 468.04,
-    "carbon_emission": 99.69
+    "consumption": 519.85,
+    "carbon_emission": 110.73
   },
   {
     "hour": "12:30",
-    "consumption": 473.92,
-    "carbon_emission": 100.94
+    "consumption": 463.53,
+    "carbon_emission": 98.73
   },
   {
     "hour": "13:00",
-    "consumption": 463.23,
-    "carbon_emission": 98.67
+    "consumption": 465.23,
+    "carbon_emission": 99.09
   },
   {
     "hour": "13:30",
-    "consumption": 480.78,
-    "carbon_emission": 102.41
+    "consumption": 0.0,
+    "carbon_emission": 0.0
   },
   {
     "hour": "14:00",
-    "consumption": 474.15,
-    "carbon_emission": 100.99
+    "consumption": 0.0,
+    "carbon_emission": 0.0
   },
   {
     "hour": "14:30",
-    "consumption": 453.29,
-    "carbon_emission": 96.55
+    "consumption": 0.0,
+    "carbon_emission": 0.0
   },
   {
     "hour": "15:00",

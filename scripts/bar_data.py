@@ -38,5 +38,5 @@ os.makedirs(output_dir, exist_ok=True)
 with open(output_path, "w", encoding="utf-8") as f:
     json.dump(bar_data, f, ensure_ascii=False, indent=2)
 
-print(f"Đã tạo file: {output_path}")
+print(f"Da tao file: {output_path}")
 # Kết quả sẽ là một file JSON chứa dữ liệu tiêu thụ và hiệu suất theo từng giờ

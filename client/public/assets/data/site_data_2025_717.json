@@ -1,335 +1,335 @@
 [
   {
-    "_id": "2025-06-11T00:00:00",
+    "_id": "2025-06-16T00:00:00",
     "forecast": 0,
     "actual": 0,
     "export": 0.0,
     "carbon_emission": 0
   },
   {
-    "_id": "2025-06-11T00:30:00",
+    "_id": "2025-06-16T00:30:00",
     "forecast": 0,
     "actual": 0,
     "export": 0.0,
     "carbon_emission": 0
   },
   {
-    "_id": "2025-06-11T01:00:00",
+    "_id": "2025-06-16T01:00:00",
     "forecast": 0,
     "actual": 0,
     "export": 0.0,
     "carbon_emission": 0
   },
   {
-    "_id": "2025-06-11T01:30:00",
+    "_id": "2025-06-16T01:30:00",
     "forecast": 0,
     "actual": 0,
     "export": 0.0,
     "carbon_emission": 0
   },
   {
-    "_id": "2025-06-11T02:00:00",
+    "_id": "2025-06-16T02:00:00",
     "forecast": 0,
     "actual": 0,
     "export": 0.0,
     "carbon_emission": 0
   },
   {
-    "_id": "2025-06-11T02:30:00",
+    "_id": "2025-06-16T02:30:00",
     "forecast": 0,
-    "actual": 11.778368153151186,
+    "actual": 10.007471375868056,
     "export": 0.0,
-    "carbon_emission": 2.508792416621203
+    "carbon_emission": 2.131591403059896
   },
   {
-    "_id": "2025-06-11T03:00:00",
+    "_id": "2025-06-16T03:00:00",
     "forecast": 0,
-    "actual": 11.827819038003177,
+    "actual": 10.090309000651041,
     "export": 0.0,
-    "carbon_emission": 2.519325455094677
+    "carbon_emission": 2.149235817138672
   },
   {
-    "_id": "2025-06-11T03:30:00",
+    "_id": "2025-06-16T03:30:00",
     "forecast": 0,
-    "actual": 10.521232639478601,
+    "actual": 9.91484544881185,
     "export": 0.0,
-    "carbon_emission": 2.241022552208942
+    "carbon_emission": 2.111862080596924
   },
   {
-    "_id": "2025-06-11T04:00:00",
+    "_id": "2025-06-16T04:00:00",
     "forecast": 0,
-    "actual": 10.072204676649307,
+    "actual": 9.704396332465278,
     "export": 0.0,
-    "carbon_emission": 2.1453795961263022
+    "carbon_emission": 2.0670364188151042
   },
   {
-    "_id": "2025-06-11T04:30:00",
+    "_id": "2025-06-16T04:30:00",
     "forecast": 0,
-    "actual": 8.694141437892808,
+    "actual": 9.72700824110243,
     "export": 0.0,
-    "carbon_emission": 1.851852126271168
+    "carbon_emission": 2.0718527553548176
   },
   {
-    "_id": "2025-06-11T05:00:00",
+    "_id": "2025-06-16T05:00:00",
     "forecast": 0,
-    "actual": 7.796330690499827,
+    "actual": 9.831909412977431,
     "export": 0.0,
-    "carbon_emission": 1.6606184370764632
+    "carbon_emission": 2.094196704964193
   },
   {
-    "_id": "2025-06-11T05:30:00",
+    "_id": "2025-06-16T05:30:00",
     "forecast": 0,
-    "actual": 7.854543158637153,
+    "actual": 9.65962630580357,
     "export": 0.0,
-    "carbon_emission": 1.6730176927897136
+    "carbon_emission": 2.0575004031361606
   },
   {
-    "_id": "2025-06-11T06:00:00",
+    "_id": "2025-06-16T06:00:00",
     "forecast": 0,
-    "actual": 8.218305156024206,
+    "actual": 7.908053296558277,
     "export": 0.0,
-    "carbon_emission": 1.7011891672970108
+    "carbon_emission": 0.798713382952386
   },
   {
-    "_id": "2025-06-11T06:30:00",
+    "_id": "2025-06-16T06:30:00",
     "forecast": 0,
-    "actual": 9.27741241126932,
+    "actual": 7.9105213081314725,
     "export": 0.0,
-    "carbon_emission": 1.9760888436003654
+    "carbon_emission": 1.6849410386320036
   },
   {
-    "_id": "2025-06-11T07:00:00",
+    "_id": "2025-06-16T07:00:00",
     "forecast": 0,
-    "actual": 14.968624565972222,
+    "actual": 25.217421501758835,
     "export": 0.0,
-    "carbon_emission": 3.1883170325520833
+    "carbon_emission": 5.371310779874633
   },
   {
-    "_id": "2025-06-11T07:30:00",
+    "_id": "2025-06-16T07:30:00",
     "forecast": 0,
-    "actual": 23.44490949435764,
+    "actual": 32.27912956092877,
     "export": 0.0,
-    "carbon_emission": 4.993765722298177
+    "carbon_emission": 6.875454596477829
   },
   {
-    "_id": "2025-06-11T08:00:00",
+    "_id": "2025-06-16T08:00:00",
     "forecast": 0,
-    "actual": 30.219245823981353,
+    "actual": 40.13392599826389,
     "export": 0.0,
-    "carbon_emission": 6.436699360508028
+    "carbon_emission": 8.54852623763021
   },
   {
-    "_id": "2025-06-11T08:30:00",
+    "_id": "2025-06-16T08:30:00",
     "forecast": 0,
-    "actual": 39.25121468008031,
+    "actual": 46.85607526545235,
     "export": 0.0,
-    "carbon_emission": 8.360508726857105
+    "carbon_emission": 9.98034403154135
   },
   {
-    "_id": "2025-06-11T09:00:00",
+    "_id": "2025-06-16T09:00:00",
     "forecast": 0,
-    "actual": 39.010814279513895,
+    "actual": 46.75251310763888,
     "export": 0.0,
-    "carbon_emission": 8.30930344153646
+    "carbon_emission": 9.958285291927083
   },
   {
-    "_id": "2025-06-11T09:30:00",
+    "_id": "2025-06-16T09:30:00",
     "forecast": 0,
-    "actual": 35.03195658637153,
+    "actual": 49.276716015625006,
     "export": 0.0,
-    "carbon_emission": 7.461806752897135
+    "carbon_emission": 10.495940511328126
   },
   {
-    "_id": "2025-06-11T10:00:00",
+    "_id": "2025-06-16T10:00:00",
     "forecast": 0,
-    "actual": 38.5691334092882,
+    "actual": 47.68045107367318,
     "export": 0.0,
-    "carbon_emission": 8.215225416178386
+    "carbon_emission": 10.155936078692388
   },
   {
-    "_id": "2025-06-11T10:30:00",
+    "_id": "2025-06-16T10:30:00",
+    "forecast": 0,
+    "actual": 48.97252023349719,
+    "export": 0.0,
+    "carbon_emission": 10.431146809734903
+  },
+  {
+    "_id": "2025-06-16T11:00:00",
+    "forecast": 0,
+    "actual": 49.407065891140114,
+    "export": 0.0,
+    "carbon_emission": 10.523705034812846
+  },
+  {
+    "_id": "2025-06-16T11:30:00",
+    "forecast": 0,
+    "actual": 51.12578114209254,
+    "export": 0.0,
+    "carbon_emission": 10.889791383265713
+  },
+  {
+    "_id": "2025-06-16T12:00:00",
+    "forecast": 0,
+    "actual": 42.57133912360335,
+    "export": 0.0,
+    "carbon_emission": 9.067695233327512
+  },
+  {
+    "_id": "2025-06-16T12:30:00",
+    "forecast": 0,
+    "actual": 36.97968001853813,
+    "export": 0.0,
+    "carbon_emission": 7.876671843948622
+  },
+  {
+    "_id": "2025-06-16T13:00:00",
+    "forecast": 0,
+    "actual": 37.171983013392854,
+    "export": 0.0,
+    "carbon_emission": 7.917632381852678
+  },
+  {
+    "_id": "2025-06-16T13:30:00",
     "forecast": 0,
     "actual": 0,
     "export": 0,
     "carbon_emission": 0
   },
   {
-    "_id": "2025-06-11T11:00:00",
+    "_id": "2025-06-16T14:00:00",
     "forecast": 0,
     "actual": 0,
     "export": 0,
     "carbon_emission": 0
   },
   {
-    "_id": "2025-06-11T11:30:00",
+    "_id": "2025-06-16T14:30:00",
     "forecast": 0,
     "actual": 0,
     "export": 0,
     "carbon_emission": 0
   },
   {
-    "_id": "2025-06-11T12:00:00",
+    "_id": "2025-06-16T15:00:00",
     "forecast": 0,
     "actual": 0,
     "export": 0,
     "carbon_emission": 0
   },
   {
-    "_id": "2025-06-11T12:30:00",
+    "_id": "2025-06-16T15:30:00",
     "forecast": 0,
     "actual": 0,
     "export": 0,
     "carbon_emission": 0
   },
   {
-    "_id": "2025-06-11T13:00:00",
+    "_id": "2025-06-16T16:00:00",
     "forecast": 0,
     "actual": 0,
     "export": 0,
     "carbon_emission": 0
   },
   {
-    "_id": "2025-06-11T13:30:00",
+    "_id": "2025-06-16T16:30:00",
     "forecast": 0,
     "actual": 0,
     "export": 0,
     "carbon_emission": 0
   },
   {
-    "_id": "2025-06-11T14:00:00",
+    "_id": "2025-06-16T17:00:00",
     "forecast": 0,
     "actual": 0,
     "export": 0,
     "carbon_emission": 0
   },
   {
-    "_id": "2025-06-11T14:30:00",
+    "_id": "2025-06-16T17:30:00",
     "forecast": 0,
     "actual": 0,
     "export": 0,
     "carbon_emission": 0
   },
   {
-    "_id": "2025-06-11T15:00:00",
+    "_id": "2025-06-16T18:00:00",
     "forecast": 0,
     "actual": 0,
     "export": 0,
     "carbon_emission": 0
   },
   {
-    "_id": "2025-06-11T15:30:00",
+    "_id": "2025-06-16T18:30:00",
     "forecast": 0,
     "actual": 0,
     "export": 0,
     "carbon_emission": 0
   },
   {
-    "_id": "2025-06-11T16:00:00",
+    "_id": "2025-06-16T19:00:00",
     "forecast": 0,
     "actual": 0,
     "export": 0,
     "carbon_emission": 0
   },
   {
-    "_id": "2025-06-11T16:30:00",
+    "_id": "2025-06-16T19:30:00",
     "forecast": 0,
     "actual": 0,
     "export": 0,
     "carbon_emission": 0
   },
   {
-    "_id": "2025-06-11T17:00:00",
+    "_id": "2025-06-16T20:00:00",
     "forecast": 0,
     "actual": 0,
     "export": 0,
     "carbon_emission": 0
   },
   {
-    "_id": "2025-06-11T17:30:00",
+    "_id": "2025-06-16T20:30:00",
     "forecast": 0,
     "actual": 0,
     "export": 0,
     "carbon_emission": 0
   },
   {
-    "_id": "2025-06-11T18:00:00",
+    "_id": "2025-06-16T21:00:00",
     "forecast": 0,
     "actual": 0,
     "export": 0,
     "carbon_emission": 0
   },
   {
-    "_id": "2025-06-11T18:30:00",
+    "_id": "2025-06-16T21:30:00",
     "forecast": 0,
     "actual": 0,
     "export": 0,
     "carbon_emission": 0
   },
   {
-    "_id": "2025-06-11T19:00:00",
+    "_id": "2025-06-16T22:00:00",
     "forecast": 0,
     "actual": 0,
     "export": 0,
     "carbon_emission": 0
   },
   {
-    "_id": "2025-06-11T19:30:00",
+    "_id": "2025-06-16T22:30:00",
     "forecast": 0,
     "actual": 0,
     "export": 0,
     "carbon_emission": 0
   },
   {
-    "_id": "2025-06-11T20:00:00",
+    "_id": "2025-06-16T23:00:00",
     "forecast": 0,
     "actual": 0,
     "export": 0,
     "carbon_emission": 0
   },
   {
-    "_id": "2025-06-11T20:30:00",
-    "forecast": 0,
-    "actual": 0,
-    "export": 0,
-    "carbon_emission": 0
-  },
-  {
-    "_id": "2025-06-11T21:00:00",
-    "forecast": 0,
-    "actual": 0,
-    "export": 0,
-    "carbon_emission": 0
-  },
-  {
-    "_id": "2025-06-11T21:30:00",
-    "forecast": 0,
-    "actual": 0,
-    "export": 0,
-    "carbon_emission": 0
-  },
-  {
-    "_id": "2025-06-11T22:00:00",
-    "forecast": 0,
-    "actual": 0,
-    "export": 0,
-    "carbon_emission": 0
-  },
-  {
-    "_id": "2025-06-11T22:30:00",
-    "forecast": 0,
-    "actual": 0,
-    "export": 0,
-    "carbon_emission": 0
-  },
-  {
-    "_id": "2025-06-11T23:00:00",
-    "forecast": 0,
-    "actual": 0,
-    "export": 0,
-    "carbon_emission": 0
-  },
-  {
-    "_id": "2025-06-11T23:30:00",
+    "_id": "2025-06-16T23:30:00",
     "forecast": 0,
     "actual": 0,
     "export": 0,
